@@ -1,0 +1,50 @@
+body {
+    background-color: #f8f9fa; /* Light background color */
+    font-family: 'Arial', sans-serif; /* Font family */
+}
+
+h1 {
+    margin-bottom: 0.5rem;
+}
+
+nav {
+    font-size: larger;
+    font-weight: 500;
+    background-color: #BEB7A4;
+}
+
+#main{
+    margin-top: 3rem;
+    padding: 2rem;
+    background-image: url('images/custombackground.jpeg'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #6f4c3e; 
+    padding: 60px 0;
+
+}
+
+#welcomezone{
+    opacity: 1;
+}
+
+.card {
+    border-radius: 0.5rem; /* Rounded borders for cards */
+}
+
+.table th, .table td {
+    text-align: center; /* Centered text for table */
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.navbar {
+    background-color: rgba(190, 183, 164, 0.8);
+}
+
+
