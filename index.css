@@ -57,7 +57,33 @@ blockquote footer {
     background-color: rgba(190, 183, 164, 0.8);
 }
 
-#welcomezone h1,p {
-        color: #FFFFE0;
+#welcomezone {
+    h1 {
+        color: #F5F5DC;
         font-weight: 600;
+    }
+
+    p {
+        color: #F5F5DC; 
+        font-weight: 400;
+    }
+    
+}
+
+
+#product-section{
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    cursor: pointer; 
+  }
+  
+  .card-body:hover {
+    background-color: #f8f9fa;
+  }
 }
