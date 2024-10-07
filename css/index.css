@@ -1,0 +1,98 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    margin-bottom: 0.5rem;
+}
+
+nav {
+    font-size: bold;
+    font-weight: 600;
+}
+
+#table {
+    margin: 6px;
+    padding: 6px;
+    color: black;
+}
+
+#main {
+    margin-top: 3rem;
+    padding: 2rem;
+    background-image: url('../images/custombackground.jpeg'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #6f4c3e;
+    padding: 60px 0;
+}
+
+#welcomezone {
+    opacity: 1;
+
+    h1 {
+        color: #F5F5DC;
+        font-weight: 600;
+    }
+
+    p {
+        color: #F5F5DC;
+        font-weight: 400;
+    }
+}
+
+.card {
+    border-radius: 0.5rem;
+}
+
+.table {
+    th, td {
+        text-align: center;
+    }
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #0e0e0b;
+}
+
+blockquote {
+    footer {
+        background-color: rgb(255, 253, 253);
+    }
+}
+
+.navbar {
+    background-color: rgba(190, 183, 164, 0.8);
+}
+
+#product-section {
+    .card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      
+        &:hover {
+            transform: scale(1.05); 
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+            cursor: pointer;
+        }
+    }
+
+    .card-body:hover {
+        background-color: #f8f9fa;
+    }
+}
+
+#collapseOne, #collapseTwo, #collapseThree {
+    color: #000000;
+    background-color: #4c2c0460;
+}
+
+#headingOne, #headingTwo, #headingThree {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    font-weight: 500;
+}
