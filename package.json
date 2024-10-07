@@ -1,0 +1,28 @@
+{
+  "name": "colaborative-workshop",
+  "version": "1.0.0",
+  "description": "Bens contribution",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel --open",
+    "build": "parcel build"
+ },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenyBen1/Colaborative-workshop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenyBen1/Colaborative-workshop/issues"
+  },
+  "homepage": "https://github.com/BenyBen1/Colaborative-workshop#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.1",
+    "bootstrap": "^5.2.3"
+  }
+}
